@@ -1,12 +1,20 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+/* App.css */
+.app {
+    display: flex;
+  }
+  
+  .textarea {
+    flex: 1;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .preview {
+    flex: 1;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  
+  
