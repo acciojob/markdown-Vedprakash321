@@ -22,7 +22,7 @@ const App = () => {
         placeholder="Write markdown here..."
       ></textarea>
       <h1
-        className="preview"
+       
         dangerouslySetInnerHTML={convertToHTML(markdown)}
       ></h1>
     </div>
