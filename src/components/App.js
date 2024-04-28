@@ -21,10 +21,10 @@ const App = () => {
         onChange={handleChange}
         placeholder="Write markdown here..."
       ></textarea>
-      <h2
+      <h1
         className="preview"
         dangerouslySetInnerHTML={convertToHTML(markdown)}
-      ></h2>
+      ></h1>
     </div>
   );
 };
