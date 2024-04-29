@@ -32,7 +32,7 @@ const App = () => {
         {isLoading ? (
           <p className="loading">Loading...</p>
         ) : (
-          <div dangerouslySetInnerHTML={{ __html: markdown }} />
+          <h1 dangerouslySetInnerHTML={{ __html: markdown }} />
         )}
       </div>
     </div>
